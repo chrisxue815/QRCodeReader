@@ -1,14 +1,73 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.pedro.vlctestapp.MainActivity"
-    >
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <SurfaceView
-      android:id="@+id/surfaceView"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      />
+    <data>
 
-</RelativeLayout>
+        <variable
+            name="model"
+            type="com.locatible.qrcodereader.MainActivityViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/video_url" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textUri"
+            android:text="@={model.videoUrl}" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scandit_license" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="@={model.scanditLicense}" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/status" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:inputType="none"
+            android:text="@{model.status}" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recognized_code" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:inputType="none"
+            android:text="@{model.recognizedCode}" />
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:onClick="@{() -> model.toggle()}"
+            android:text="@{model.running? @string/stop : @string/start}" />
+
+    </LinearLayout>
+</layout>

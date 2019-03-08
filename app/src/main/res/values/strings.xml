@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">QR Code Reader</string>
+    <string name="done">Done</string>
+    <string name="scandit_license">Scandit License</string>
+    <string name="status">Status</string>
+    <string name="start">Start</string>
+    <string name="starting">Starting...</string>
+    <string name="stop">Stop</string>
+    <string name="stopping">Stopping...</string>
+    <string name="streaming">Streaming...</string>
+    <string name="recognized_code">Recognized Code</string>
+    <string name="video_url">Video URL</string>
+
+    <string name="pref_video_url_key">pref_video_url_key</string>
+    <string name="pref_video_url_default">rtsp://192.168.0.80</string>
+    <string name="pref_scandit_license_key">scandit_license_key</string>
+    <string name="pref_scandit_license_default">AVIMQwRFGcoxJgGUhzv6j6Yo1jX3NNeL5kbO6AFUAIxDfr/GjndhnkgfnNLxeemxOWtKwgZ3hTFTAy2TP2yBH/0JHZ8FaMKLnwW/4DheP4riS5XsQxBHAJkwqfBgCzB2GUJiJCulop8Av1dV4wef9ZG+dHiBUUA9jyVlnw2aBYD/wXK2PkOsu76jkzHeiNODQgsvUvAoXKRz9PpspZ6jzbgzGn6azOSToDTT4gD9sqleZGIO69/m4vls8i4j66svDM7m3gZjG2x03SwPBUICQw7q38wu5ZSgHi0XbPQfUdpadH+AsAY/EZI9F1DcUvm4Y+dV6PyiZoVwI93VtOJtBAe56xFhoBFWleeo0nPJB38NqNNUnX7BgI/Zc5p2od/lzJKp0OltFgiHH+5FzhDsMF5Tx6TjCqrGzxOETGumCHwPGLXautnXTWEtXY5k0zds6ZH4I/sJ/WOuX1SSdvj7tOQKDpVAYNm3AB0rPo0XGfvfxbpmJoQCO+gpzfulwvyaTNBiCQNHwhkJbEQS2SXhmsGlDkq4CArg4/VvoUyxt4jzw/ewwuxNudNhQ9veRDp37mCnl35DGKcJvWB20qHO4EDTw1YLgRoH/tSgrmGin7JgS8SHTNYYigc71I2lloXCN1XZvbjU92DSfpl56fiesZ12DaMuKkrv2pxiGDE6y3yNHywrj7jpkSflUDq3Y97kr7fLpOOOe5epiqmv00w2kT1bgRVkaxySjkuKptcjwd8C9agegxT7ShKiTjxG/7YEiSCi7ecXCshzVg/B65O8KnmFkVSSAzElAtAf//9UXyHtHA==</string>
 </resources>
