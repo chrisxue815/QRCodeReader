@@ -34,10 +34,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     implementation 'org.bytedeco:javacv:1.4.3'
-    implementation 'org.bytedeco.javacpp-presets:opencv:3.4.3-1.4.3:android-arm'
-    implementation 'org.bytedeco.javacpp-presets:opencv:3.4.3-1.4.3:android-arm64'
-    implementation 'org.bytedeco.javacpp-presets:opencv:3.4.3-1.4.3:android-x86'
-    implementation 'org.bytedeco.javacpp-presets:opencv:3.4.3-1.4.3:android-x86_64'
     implementation 'org.bytedeco.javacpp-presets:ffmpeg:4.0.2-1.4.3:android-arm'
     implementation 'org.bytedeco.javacpp-presets:ffmpeg:4.0.2-1.4.3:android-arm64'
     implementation 'org.bytedeco.javacpp-presets:ffmpeg:4.0.2-1.4.3:android-x86'
